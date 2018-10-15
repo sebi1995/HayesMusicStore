@@ -1,0 +1,11 @@
+.genres_img {
+	width: 600px;
+	height: 81px;
+	margin: 10px auto;
+	border: 1px dotted #C9C9C9;
+	overflow: hidden;
+}
+.genres_img:hover img:first-child{
+	opacity: 0;
+	position: absolute;
+}

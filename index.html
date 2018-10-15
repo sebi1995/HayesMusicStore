@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>			
+		<title>Hayes Music Store</title>						
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="layout.css" />
+		<style>
+			<!--[if lt IE 9]>
+				<script src="html5shiv.js"></script>
+			<![endif]-->
+		</style>
+	</head>		
+	<body>
+		
+		<div id="pagetop"></div><!--	this is an anchor tag which when you click on the span in the footer it will scroll the page up to this point -->
+		
+		<div id="wrapper"><!-- 	this is the wrapper which is a box around everything inside the body which is used to make the website contents flow left -->
+		
+			<header> 
+				<div id="header_wrapper"><!-- 	this is a wrapper for the header so that there will be no complications if the header is too small and the nav might try and move up -->
+				
+					<article id="logo">
+						<a href="index.html"><img  src="images/logo.jpg" alt="Hayes Music Store Logo" /></a>
+					</article>
+					<article id="hms_title">
+						<img  src="images/title.png" alt="Hayes Music Store Title" />
+					</article>
+				</div> 
+				<nav id="navigation"><!-- 	this is the navigation bar which is css controlled for its aspects/functions to add more buttons compy one of 
+									the main <li> tags from bellow and paste it	under the last main li tagged line to add more drop down menus, 
+									copy one of the sub-nav li tags and paste it under the last sub-nav li tag and change the text and where it goes, the .html link-->	
+					<ul>
+						<li><a href="index.html"><img src="images/home_button.png" alt="Home Button"/><span></span></a></li>
+						<li ><a href="info.html"> <!-- <- link of button --><span><!-- text on button -> -->Information</span></a></li>
+						<li id="has-sub"><a href="genres.html"><span>Genres</span></a>
+							<ul>
+								<li><a></a></li>	
+								<li><a href="hiphop.html"><!-- <-link of drop down menu buttons --> Hip-Hop<!-- <- title of drop down menu buttons --></a></li>
+								<li><a href="reggae.html">Reggaee</a></li>
+								<li><a href="genres.html">More...</a></li>
+							</ul>
+						</li>
+						<li><a href="special.html"><span>Special Offers</span></a></li>
+						<li><a href="contact.html"><span>Contact Us!</span></a></li>
+						<li><a href="feedback.html"><span>Feedback</span></a></li>
+					</ul>
+				</nav>		
+			</header>
+			<section id="infowrap"><!-- this is a box around the middle of the page -->
+			
+				<aside id="home_aside"><!-- this is the aside section that on this page is on the middle of the infowrap box-->
+				
+					<section class="h_specialofferwrapper"><!-- this is the box that contains all the special offers which on the homepage is
+																on the top in the infowrap, all other pages it's on the left hand side of the infowrap-->
+																
+						<article class="animated_specialoffer"><!-- this is the box which contains the parts that make the special offer box that is seen on all the pages-->
+							<ul>
+								<li>
+									<div class="specialoffer_image_title"><!-- 	this is the title of the special offer, ex the top line of the contents,
+																				in this case "Thomas Wireless Headphones" will appear on the bottom of 
+																				the special offer image, and then when the user hover the mouse over that
+																				text the rest of the text will appear-->
+										<a>
+											Thomson Wireless Headphones<br/><br/>
+											Wireless headphones with 100m range (20-30m in buildings)<br/>
+											Integrated volume control<br/>
+											Power button on the headphones with LED display<br/>
+										</a>
+									</div>
+									<a>
+										<img src="images/offerstab/headphone1.jpg" alt="Thomson Wireless Headphones"/><!-- 	this tag is what makes the image appear
+																															src="" is where you add the address of an image
+																															to make it appear on the website alt="" is the alternative
+																															text that will appear if the image cannot be desplayed-->
+									</a>
+								</li>
+							</ul>
+						</article>
+					</section>
+					<section class="h_specialofferwrapper">
+						<article class="animated_specialoffer">
+							<ul>
+								<li>
+									<div class="specialoffer_image_title">
+										<a>
+											JVC HAKD5P Tiny Stereo Headphones<br/><br/>
+											Wide headband can be decorated with supplies stickers or users' own<br/>
+											Small size for children (over 4 years old)
+										</a>
+									</div>
+									<a>
+										<img src="images/offerstab/headphone2.jpg" alt="JVC HAKD5P Tiny Stereo Headphones"/>
+									</a>
+								</li>
+							</ul>
+						</article>
+					</section>
+					<section class="h_specialofferwrapper">
+						<article class="animated_specialoffer">
+							<ul>
+								<li>
+									<div class="specialoffer_image_title">
+										<a>
+											Fender Standard Telecaster Electric Guitar<br/><br/>
+											Standard Telecaster guitar<br/>
+											Fast-action maple neck<br/>
+											Cast/sealed machine heads<br/>
+											Two classic single-coil pickups<br/>
+											Six-saddle string-through-body bridge<br/>
+										</a>
+									</div>
+									<a>
+										<img src="images/offerstab/guitar1.jpg" alt="Fender Standard Telecaster Electric Guitar"/>
+									</a>
+								</li>
+							</ul>
+						</article>
+					</section>
+					<section class="h_specialofferwrapper">
+						<article class="animated_specialoffer">
+							<ul>
+								<li>
+									<div class="specialoffer_image_title">
+										<a>
+											Gibson SGJ Electric Guitar<br/><br/>
+											Solid mahogany body<br/>
+											Maple neck<br/>
+											Rosewood fingerboard<br/>
+											Tune-o-matic bridge and Stopbar tailpiece
+										</a>
+									</div>
+									<a>
+										<img src="images/offerstab/guitar2.jpg" alt="Gibson SGJ Electric Guitar"/>
+									</a>
+								</li>
+							</ul>
+						</article>
+					</section>
+				</aside>
+				<section id="home_section"><!-- this is the id tag for the section tag on the index.html, this is used to control how the page will be displayed using css -->
+				
+					<article class="title_box"><!-- this is the class tag for the titlebox which is used to create a house style to make the website neat and make it easier for the
+													website designer to add more info to the website without having to make any changes to the css-->
+						Welcome
+					</article>
+					<section class="info_box"><!-- 	this is the class tag for the info_box which is used to create a house style to make the website neat and make it easier for the
+													website designer to add more info to the website without having to make any changes to the css-->
+													
+						<article style="margin: 1%;"><!-- 	the style="" is a function which allows you to add css properties to the 
+															certain tag in which you put it in, it is a internal css method of adding css -->
+															
+							Welcome to Hayes Music Store website!<br>
+							Thank you for visiting and feel free to have a look around out website to see what offer and deals we have! :)
+						</article>
+					</section>
+					<article class="title_box">Music News</article>
+					<section class="info_box">
+							<article class="title_box" style="font-size: 15px;">
+								Rihanna over LA? - 20 Oct 2013
+							</article>
+							<section class="info_box">
+								<article class="musicnews_info"><!-- this class tag is used to control the music news info on the home page -->
+									Rihanna apparently wants to "cut ties" with her LA home.<br>
+									The star's Pacific Palisades mansion has been targeted by intruders and was allegedly invaded twice since the end of September.
+									A removals firm has packed up her belongings as she performs her Diamonds World Tour in South Africa and Rihanna is reportedly wary about returning to the house.<br><br>
+									"Even though she wasn't there when it happened, she doesn't feel safe in the house anymore," a source admitted to British magazine Star.<br>
+									"Rihanna is really scared. She'd rather just cut ties with the house and move on."					
+								</article>
+								<article class="musicnews_image"><!-- this class tag is used to control the layout of the image in the music news on the home page -->
+									<img src="images/musicnews/rihanna.jpg" alt="Picture of Rihanna" />
+								</article>
+							</section>
+							<article class="title_box" style="font-size: 15px;">
+								Scherzinger 'confused by ex'  - 17 Nov 2013
+							</article>
+							<section class="info_box">
+								<article class="musicnews_info">
+									Nicole Scherzinger is apparently frustrated with Lewis Hamilton "blowing hot and cold".<br/><br/>
+									The former Pussycat Doll and the Formula One star started dating in 2007, but broke up and reunited several times before calling things off for good in July this year.<br/>
+									Since then they've been spotted meeting up for "crisis talks" and it was recently reported Lewis promised Nicole children if she takes him back.<br/>
+									Now it seems the sports star has changed his mind about getting back together, leaving the 35-year-old in a confusing position.<br/>
+								</article>
+								<article class="musicnews_image">
+									<img src="images/musicnews/scherzinger.jpg" alt="Picture of Scherzinger" />
+								</article>
+							</section>
+					</section>
+				</section>
+			</section>
+			<footer>
+				<article>&copy; Hayes Music Store 2013</article><!-- this article tag is used to control the layout of the text in the footer on the bottom of the page -->
+				<span><a href="#pagetop">&barwed;</a></span><!-- this span tag is used to control the button on the right side of the footer which when clicked on takes you to the top of the page -->
+			</footer>		
+		</div>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+.product {
+	width: 334px;
+	padding: 10px;
+	float: left;
+}
+.product_title{
+	width: 314px;
+	padding: 10px;
+	background: #ececec;
+}
+.product_img {
+	width: 250px;
+	height: 250px;
+	margin: 5px auto;
+}
+.product_pricewrapper {
+	width: 314px;
+	padding: 0 10px;
+	float: left;
+}
+	.product_price {
+		width: 50px;
+		padding: 5px;
+		border-left: 1px dotted #C9C9C9;
+		border-top: 1px dotted #C9C9C9;
+		border-bottom: 1px dotted #C9C9C9;
+		float: left;
+	}
+	.product_price_output {
+		width: 75px;
+		padding: 5px;
+		border-top: 1px dotted #C9C9C9;
+		border-right: 1px dotted #C9C9C9;
+		border-bottom: 1px dotted #C9C9C9;
+		float: left;
+	}
+	.product_stock {
+		width: 50px;
+		padding: 5px;
+		margin-left: 20px;
+		border-left: 1px dotted #C9C9C9;
+		border-top: 1px dotted #C9C9C9;
+		border-bottom: 1px dotted #C9C9C9;
+		float: left;
+	}
+	.product_stock_output {
+		width: 75px;
+		padding: 5px;
+		border-top: 1px dotted #C9C9C9;
+		border-right: 1px dotted #C9C9C9;
+		border-bottom: 1px dotted #C9C9C9;
+		float: left;
+	}

@@ -1,0 +1,110 @@
+/*layout for Hayes Music Store Website*/
+/*Sebastian Zdroana*/
+
+@import url("nav.css");
+@import url("css/infowraps/home_infowrap.css");
+@import url("css/infowraps/genres_infowrap.css");
+@import url("css/infowraps/products_infowrap.css");
+@import url("css/infowraps/special-offers_infowrap.css");
+@import url("css/infowraps/contact_infowrap.css");
+@import url("css/infowraps/feedback_infowrap.css");
+@import url("css/specialofferstab.css");
+@import url("css/feedbackform.css");
+
+html{
+	background-color: #48C8FA;
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+body{
+	width: 1000px;
+	float: left;
+}
+#wrapper {
+	float: left;
+	width: 1000px;
+	margin: 10px 0;
+}
+
+header {
+	float: left;
+	height: 158px;
+	background: #ececec;
+	width: 1000px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+	#header_wrapper{
+		width: 1000px;
+		height: 72px;
+		float: left;
+		background: #fefefe;
+		padding: 10px 0;
+	}
+		#logo{
+			width: 72px;
+			height: 72px;
+			float: left;
+			margin-left: 10px;
+		}
+		#hms_title{
+			width: 632px;
+			margin-left: 10px;
+			padding-left: 5px;
+			height: 72px;
+			float: left;
+			display: inline;
+		}
+#infowrap {
+	margin: 10px 0 5px 0;
+	width: 1000px;
+	float: left;
+	background-color: #ffffff /*#CD5C5C*/;
+}
+#sub_section {
+	width: 75%;
+	float: left;
+}
+.title_box {
+	width: 94%; /* 705 */
+	padding: 1%; /* 7.5 x 2 = 15 */
+	font-size: 20px;
+	margin: 2% 2% 0 2%; /* 3 */
+	background: #C9C9C9;
+	border: 1px dotted #C9C9C9;
+	float:left;
+}
+.info_box {
+	width: 96%;
+	margin: 0 2% 2% 2%;
+	float: left;
+	border-left: 1px dotted #C9C9C9;
+	border-right: 1px dotted #C9C9C9;
+	border-bottom: 1px dotted #C9C9C9;
+ }
+footer {
+	width: 995px;
+	background-color: #ffffff;
+	padding: 5px 0 20px 5px;
+	float: left;
+	height: 25px;
+}
+footer > article{
+	float: left;
+}
+footer > span > a{
+	float: right;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	margin-right: 5px;
+	font-size: 30px;
+	text-decoration: none;
+	background: #48C8FA;
+	color: #000;
+}
+footer > span:hover a{
+	background: #ececec;
+	color:  #48C8FA;
+}

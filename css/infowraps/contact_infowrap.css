@@ -1,0 +1,53 @@
+.contact_methods {
+	position: relative;  
+	clear: both;
+	top: 10px;
+	margin: 2%;
+	min-height: 400px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.contact_method {
+	float: left;
+}
+.contact_method label {
+	background: #eee; 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	margin-left: -1px; 
+	position: relative;
+	left: 1px; 
+}
+.contact_method [type=radio] {
+	display: none;   
+}	
+.contact_method_content {
+	position: absolute;
+	top: 28px;
+	left: 0;
+	background: white;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+	border: 1px solid #ccc; 
+}
+[type=radio]:checked ~ label {
+	background: white;
+	border-bottom: 1px solid white;
+	z-index: 2;
+}
+[type=radio]:checked ~ label ~ .contact_method_content {
+	z-index: 1;
+}
+.contact_logo {
+	width: 45px;
+	height: 48px;
+	margin-left: 70px;
+	float: left;
+	overflow: hidden;
+}
+.contact_logo:active img:first-child{
+	opacity: 0;
+	position: absolute;
+}

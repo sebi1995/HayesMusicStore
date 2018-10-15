@@ -1,0 +1,65 @@
+.spoiw_wrapper {
+	width: 334px;
+	padding: 10px;
+	float: left;
+}
+	.spoiw_heading {
+		width: 332px;
+		border: 1px dotted #C9C9C9;
+		text-align: center;
+		font-size: 40px;
+		float: left;
+	}
+	.spoiw_imgwrap {
+		width: 334px;
+		margin: 3px 0 0 0;
+		float: left;
+	}
+		.spoiw_img {
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
+		}
+	.spoiw_oldpricewrap {
+		width: 162px;
+		float: left;
+		margin: 3px 0 0 0;
+	}
+		.spoiw_oldpricetitle {
+			width: 70px;
+			border-left: 1px dotted #C9C9C9;
+			border-top: 1px dotted #C9C9C9;
+			border-bottom: 1px dotted #C9C9C9;
+			padding: 5px;
+			float: left;
+		}
+		.spoiw_oldprice {
+			width: 70px;
+			border-top: 1px dotted #C9C9C9;
+			border-right: 1px dotted #C9C9C9;
+			border-bottom: 1px dotted #C9C9C9;
+			padding: 5px;
+			float: left;
+		}
+	.spoiw_newpricewrap {
+		width: 162px;
+		float: left;
+		margin: 3px 0 0 10px;
+		
+	}
+		.spoiw_newpricetitle {
+			width: 75px;
+			border-left: 1px dotted #C9C9C9;
+			border-top: 1px dotted #C9C9C9;
+			border-bottom: 1px dotted #C9C9C9;
+			padding: 5px;
+			float: left;
+		}
+		.spoiw_newprice {
+			width: 65px;
+			border-top: 1px dotted #C9C9C9;
+			border-right: 1px dotted #C9C9C9;
+			border-bottom: 1px dotted #C9C9C9;
+			padding: 5px;
+			float: left;
+		}

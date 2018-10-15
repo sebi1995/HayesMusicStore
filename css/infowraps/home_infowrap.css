@@ -1,0 +1,37 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+#home_aside{
+	width: 1000px;
+	float:left;	
+}
+	.h_specialofferwrapper{
+		width: 188px;
+		margin: 20px;
+		padding: 10px;
+		border: 1px dotted #ececec;
+		float: left;
+		display: inline;
+	}
+	aside section.h_specialofferwrapper:hover {
+		display: block;
+		-webkit-transform:scale(1.11);
+		-moz-transform:scale(1.11);
+	}
+#home_section {
+	width: 1000px;
+	float: left;
+}
+			.musicnews_info{
+				width: 76%;
+				margin: 1%;
+				float: left;
+			}
+			.musicnews_image {
+				width: 160px;
+				height: 160px;
+				float: right;
+				margin: 1%;
+				display: inline;
+			}

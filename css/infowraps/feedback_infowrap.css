@@ -1,0 +1,59 @@
+.info_box > form{
+	margin: 1% 0;
+	width: 100%;
+	float: left;
+}
+#name_input{
+	width: 686px; 
+	margin:1% auto; 
+	height: 30px;
+}
+	#name_title{
+		width: 464px;
+		height: 18px;	
+		padding: 5px;
+		background: #C9C9C9;
+		float: left;	
+	}
+	#enter_name{
+		width:212px;
+		height:33px;
+		float:left;
+		display: inline;
+	}
+#email_input{
+	width: 686px; 
+	margin:1% auto; 
+	height: 30px;
+}
+	#email_title{
+		width:464px;
+		height:18px;
+		padding: 5px;
+		background: #C9C9C9;
+		float: left;
+	}
+	#enter_email{
+		width: 212px;
+		height: 33px;
+		float: left;
+		display: inline;
+	}	
+#problem_input{ 
+	width: 686px; 
+	height: 162px;
+	margin:1% auto;
+}
+	#enter_problem{
+		width:686px;
+		float: left;
+	}
+#send_input{
+	width: 686px;
+	margin:1% auto;
+	height: 30px;
+}
+	#send_button{
+		width:200px;
+		float: right;
+	}

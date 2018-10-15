@@ -1,0 +1,111 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+#specialoffers {
+	width: 250px;
+	float: left;
+	display: inline;
+}
+	#specialofferstitle{
+		font-size: 25px;
+		text-align: center;
+		width: 80%;
+		padding: 3%; 
+		font-size: 20px;
+		margin: 6% 6% 0 6%; /* 3 */
+		background: #C9C9C9;
+		border: 1px dotted #C9C9C9;
+		float:left;
+	}
+	.specialofferwrapper{
+		width: 86%;
+		margin: 0 6% 6% 6%;
+		border-left: 1px dotted #ececec;
+		border-right: 1px dotted #ececec;
+		float: left;
+	}
+	.specialofferwrapper:last-child{
+		float: left;
+		border-bottom: 1px dotted #ececec;
+	}
+		.animated_specialoffer {
+			width: 190px; height: 190px;
+			overflow: hidden;
+			margin: 0 auto;
+			/*-moz is the border radius support for mozila firefox browser*/
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+		}
+
+		.animated_specialoffer ul li img{
+			height: 190px;
+			width: 190px;
+		}
+
+		.animated_specialoffer li {
+			position: relative;
+			display: block;
+			width: 190px;
+			float: left;
+		}
+
+		/*Reduce with of un-hovered elements*/
+		.animated_specialoffer ul li:hover div {height: 43px;}
+		/*Lets apply hover effects now*/
+		/*The LI hover style should override the UL hover style*/
+		.animated_specialoffer ul li div:hover {height: 170px;}
+
+
+		.animated_specialoffer li img {
+			display: block;
+		}
+
+		/*Image title styles*/
+		.specialoffer_image_title {
+			background: rgba(0, 0, 0, 0.5);
+			position: absolute;
+			left: 0; bottom: 0;	
+			width: 210px;	
+			height: 0;
+			
+			/*Transitions to give animation effect*/
+			transition: all 2s;
+			-moz-transition: all 2s;
+			-webkit-transition: all 2s;
+			/*If you hover on the images now you should be able to 
+			see the basic accordian*/
+
+		}
+		.specialoffer_image_title a {
+			display: block;
+			color: #fff;
+			width: 170px;
+			text-decoration: none;
+			padding: 10px;
+			font-size: 12px;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			cursor: default;
+		}
+		.clickformoreinfo {
+			width: 170px;
+			margin: 2% auto;
+			-moz-border-radius: 15px;
+			border-radius: 15px;
+			background: #ececec;
+			text-align: center;
+		}
+		.clickformoreinfo  > a{
+			text-decoration: none;
+			color: #000;
+		}
+			
+			.clickformoreinfo:hover {
+				background: #C9C9C9;
+				margin: 2% auto;
+				cursor: pointer; 
+				text-decoration: none;	
+			}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>			
+		<title>Hayes Music Store</title>						
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="layout.css" />
+		<style>
+			<!--[if lt IE 9]>
+				<script src="html5shiv.js"></script>
+			<![endif]-->
+		</style>
+	</head>		
+	<body>
+		<div id="pagetop"></div>
+		<div id="wrapper">
+			<header>
+				<div id="header_wrapper">
+					<article id="logo">
+						<a href="index.html"><img src="images/logo.jpg" alt="Hayes Music Store Logo" /></a>
+					</article>
+					<article id="hms_title">
+						<img  src="images/title.png" alt="Hayes Music Store Title" />
+					</article>
+				</div>
+				<nav id="navigation">	
+					<ul>
+						<li><a href="index.html"><img src="images/home_button.png" alt="Home Button"/></a></li>
+						<li><a href="info.html"><span>Information</span></a></li>
+						<li id="has-sub"><a href="genres.html"><span>Genres</span></a>
+							<ul>
+								<li><a></a></li>	
+								<li><a href="hiphop.html">Hip-Hop</a></li>
+								<li><a href="reggae.html">Reggaee</a></li>
+								<li><a href="genres.html">More...</a></li>
+							</ul>
+						</li>
+						<li><a href="special.html"><span>Special Offers</span></a></li>
+						<li class="active"><a href="contact.html"><span>Contact Us!</span></a></li>
+						<li><a href="feedback.html"><span>Feedback</span></a></li>
+					</ul>
+				</nav>	
+			</header>
+			<div id="infowrap">
+				<nav id="specialoffers">
+					<article id="specialofferstitle">Special Offers!</article>
+					<section class="specialofferwrapper">
+						<article class="animated_specialoffer">
+							<ul>
+								<li>
+									<div class="specialoffer_image_title">
+										<a>
+											Fender Standard Telecaster Electric Guitar<br/><br/>
+											Standard Telecaster guitar<br/>
+											Fast-action maple neck<br/>
+											Cast/sealed machine heads<br/>
+											Two classic single-coil pickups<br/>
+											Six-saddle string-through-body bridge<br/>
+										</a>
+									</div>
+									<a>
+										<img src="images/offerstab/guitar1.jpg" alt="Fender Standard Telecaster Electric Guitar"/>
+									</a>
+								</li>
+							</ul>
+						</article>
+						<article class="clickformoreinfo">
+							<a href="special.html">Click for more info!</a>
+						</article>
+					</section>
+					<section class="specialofferwrapper">
+						<article class="animated_specialoffer">	
+							<ul>
+								<li>
+									<div class="specialoffer_image_title">
+										<a>
+											Thomson Wireless Headphones<br/><br/>
+											Wireless headphones with 100m range (20-30m in buildings)<br/>
+											Integrated volume control<br/>
+											Power button on the headphones with LED display<br/>
+										</a>
+									</div>
+									<a>
+										<img src="images/offerstab/headphone1.jpg" alt="Thomson Wireless Headphones"/>
+									</a>
+								</li>
+							</ul>
+						</article>
+						<article class="clickformoreinfo">
+							<a href="special.html">Click for more info!</a>
+						</article>
+					</section>
+					<section class="specialofferwrapper">
+						<article class="animated_specialoffer">
+							<ul>
+								<li>
+									<div class="specialoffer_image_title">
+										<a>
+											Gibson SGJ Electric Guitar<br/><br/>
+											Solid mahogany body<br/>
+											Maple neck<br/>
+											Rosewood fingerboard<br/>
+											Tune-o-matic bridge and Stopbar tailpiece
+										</a>
+									</div>
+									<a>
+										<img src="images/offerstab/guitar2.jpg" alt="Gibson SGJ Electric Guitar"/>
+									</a>
+								</li>
+							</ul>
+						</article>
+						<article class="clickformoreinfo">
+							<a href="special.html">Click for more info!</a>
+						</article>
+					</section>
+				</nav>
+				<section id="sub_section">
+					<div class="contact_methods">														<!-- this is the box which contain the contacting methods -->
+																									
+						<div class="contact_method"> 													<!-- this is the tab on the top of the table -->
+							
+							<input type="radio" id="tab-1" name="tab-group-1" checked> 					<!-- this is radio button itself which with the help of css is disguised as a table -->
+																										<!-- type="" is what type of input this is, in this case radio for radio button
+																											 name="" which can be used for javascriping
+																											 and the id is there to allow the designer to control the layout of the radio button and how it looks
+																										-->
+							
+							<label for="tab-1">By Phone</label> 										<!-- this is the title of the tab 
+																											 for="" is to specify which input this label is for -->
+							
+							<div class="contact_method_content"> 										<!-- this is the div tag which holds the contents of what goes with the tab -->
+								<h2>Sales and Customer Service</h2><br/>
+								You can speak to a member of our Sales Team on <b>0000 000 0000</b>. They are available:<br/>
+								<br/>
+								Monday to Friday: 8am - 8pm<br/>
+								Saturday: 8am - 6pm<br/>
+								Sunday: 10am - 5pm<br/>
+								<br/>
+								Customer Services can be reached on <b>0000 000 0000</b> and is available:<br/>
+								<br/>
+								Monday to Friday: 8am - 8pm<br/>
+								Saturday: 8am - 6pm<br/>
+								Sunday: 9am - 6pm<br/>
+							</div> 
+						</div>
+						<div class="contact_method">
+							<input type="radio" id="tab-2" name="tab-group-1">
+							<label for="tab-2">By Post</label>
+							<div class="contact_method_content">
+								<h2>Write to us</h2><br/>
+								If you would rather write to us, you can reach us at:<br/>
+								<br/>
+								Hayes Music Store<br/>
+								4 Provence Street<br/>
+								Hayes<br/>
+								UB3 5TT<br/>
+							</div> 
+						</div>
+						<div class="contact_method">
+							<input type="radio" id="tab-3" name="tab-group-1">
+							<label for="tab-3">By Email</label>
+							<div class="contact_method_content">
+								<h2>Email us</h2><br/>
+								To enable us to answer your query as quickly as possible, please provide your name,
+								post code, and phone number along with any other relevant information<br/>
+								<br/>
+								<a href="customer.services@hms.co.uk">customer.services@hms.co.uk</a>
+							</div> 
+						</div>
+						<div class="contact_method">
+							<input type="radio" id="tab-4" name="tab-group-1">
+							<label for="tab-4">Social</label>
+							<div class="contact_method_content">
+								<h2>Social</h2><br/>
+								We've got an active community on a number of social networks - why not join us?<br/>
+								<br/>
+								<article class="contact_logo">
+									<a href="https://www.facebook.com">
+										<img src="images/contact_icons/facebook.png" alt="Hip-Hop image link" />
+										<img src="images/contact_icons/facebook-click.png" alt="Hip-Hop image inverted" />
+									</a>
+								</article>
+								<article class="contact_logo">
+									<a href="https://www.twitter.com">
+										<img src="images/contact_icons/twitter.png" alt="Hip-Hop image link" />
+										<img src="images/contact_icons/twitter-click.png" alt="Hip-Hop image inverted" />
+									</a>
+								</article>
+								<article class="contact_logo">
+									<a href="https://www.instagram.com">
+										<img src="images/contact_icons/instagram.png" alt="Hip-Hop image link" />
+										<img src="images/contact_icons/instagram-click.png" alt="Hip-Hop image inverted" />
+									</a>
+								</article>
+								<article class="contact_logo">
+									<a href="https://www.google.com">
+										<img src="images/contact_icons/g+.png" alt="Hip-Hop image link" />
+										<img src="images/contact_icons/g+-click.png" alt="Hip-Hop image inverted" />
+									</a>
+								</article>
+							</div> 
+						</div>
+					</div>
+				</section>
+			</div>
+			<footer>
+				<span>&copy; Hayes Music Store 2013</span>
+				<span><a href="#pagetop">&barwed;</a></span>
+			</footer>
+		</div>
+	</body>
+</html>
